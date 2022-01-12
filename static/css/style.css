@@ -12,7 +12,7 @@ nav .brand-logo {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 .button-collapse {
@@ -20,24 +20,19 @@ p {
 }
 
 .parallax-container {
-  min-height: 760px;
   line-height: 0;
   height: 900px;
   color: rgba(0, 0, 0, 0.9);
 }
 
 .parallax-container .section {
-  width: 100%;
+  width: 100% !important;
+  height: auto !important;
 }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+img {
+  width: 100% !important;
+  height: auto !important;
 }
 
 @media only screen and (max-width : 600px) {
@@ -46,14 +41,29 @@ p {
   }
 
   .parallax-container {
-    min-height: 300px;
+    line-height: 0;
     height: 300px;
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .parallax-container .section{
+    width: 100% !important;
+    height: auto !important;
   }
 
   img {
     width: 100%;
     height: auto !important;
-    min-height: 760px;
+  }
+
+  .container-premio {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .img-premio {
+    width: 100% !important;
+    height: auto !important;
   }
 }
 

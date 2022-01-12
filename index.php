@@ -35,7 +35,7 @@
   </div>
 
 
-  <div class="container">
+  <div class="container container-premio">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -43,7 +43,7 @@
         <div class="col s12 m12">
           <div class="icon-block center">
             <h5 class="center">Vencedores da Maratona Futuro</h5>
-              <img class="center" src="static/img/top1.jpeg" alt="">
+              <img id="img-premio" class="center" src="static/img/top1.jpeg" alt="">
             <p class="light">Buscamos mostrar para a comunidade a importância de cuidar dos nossos rios.</p>
           </div>
         </div>
